@@ -5,7 +5,8 @@
  */
 
 #work-text {
-  max-height: 94.5%;
+  max-height: 85%;
+  box-shadow: -40px 40px 20px 0 rgba(0,0,0,0.4);
 }
 
 #work-text.flipped {

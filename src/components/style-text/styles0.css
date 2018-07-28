@@ -1,11 +1,10 @@
 /**
  *
  * 你好。我叫王冰洋。目前就职于优装网，任前端工程师一职，
- * 同时也是 WebApp 架构组的前端 leader。
+ * 喜欢找一些新奇到东西
  *
- * 我喜欢研究一些前端有趣的交互。
  *
- * 要不来一场直播写代码？
+ * 要不来一场直播写代码？（ps：主要来源于滴滴某前端工程师开源项目 囧）
  */
 
 /**
@@ -23,8 +22,10 @@
  */
 
 html {
-  background: rgb(63, 82, 99);
+  background: yellow;
+  /* 哈哈！这个没用，因为我直接引入了一个撒花到背景 */
 }
+
 
 /***
  * 等等。
@@ -44,14 +45,14 @@ pre, a {
 
 pre:not(:empty) {
   overflow: auto;
-  background: rgb(48, 48, 48);
-  border: 1px solid #ccc;
+  background: rgb(2, 12, 150);
+  border: 1px solid rgb(216, 253, 157);
   max-height: 44.6%;
-  width: 49%;
+  width: 48%;
   font-size: 14px;
   font-family: monospace;
   padding: 10px 10px 20px;
-  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  box-shadow: -40px 40px 20px 0 rgba(0,0,0,0.4);
   white-space: pre-wrap;
   outline: 0;
 }
@@ -91,7 +92,7 @@ body {
 #style-text {
   -webkit-transform: translateX(98.5%) rotateY(-10deg);
   -webkit-transform-origin: right;
-  max-height: 94.5%;
+  max-height: 85%;
 }
 
 /**
@@ -103,6 +104,7 @@ body {
 pre:not(#style-text) {
   -webkit-transform: rotateY(10deg);
   -webkit-transform-origin: left;
+  box-shadow: -40px 40px 20px 0 rgba(0,0,0,0.4);
 }
 
 
